@@ -20,11 +20,15 @@ def clear_screen():
 
 def show_banner():
     clear_screen()
-    print(Fore.RED + "==========================================================")
-    print(Fore.RED + Style.BRIGHT + "  R E D   A T A C K")
-    print(Fore.RED + "==========================================================")
-    print(Fore.MAGENTA + Style.BRIGHT + "              DEVELOPER BY SABBIR ØX")
-    print(Fore.RED + "==========================================================")
+    print(Fore.RED + "==================================================")
+    print(Fore.RED + Style.BRIGHT + "  ____  _____ ____      _  _____ _____ _  __")
+    print(Fore.RED + Style.BRIGHT + " |  _ \| ____|  _ \    / \|_   _|_   _| |/ /")
+    print(Fore.RED + Style.BRIGHT + " | |_) |  _| | | | |  / _ \ | |   | | | ' / ")
+    print(Fore.RED + Style.BRIGHT + " |  _ <| |___| |_| | / ___ \| |   | | | . \ ")
+    print(Fore.RED + Style.BRIGHT + " |_| \_\_____|____/ /_/   \_\_|   |_| |_|\_\\")
+    print(Fore.RED + "==================================================")
+    print(Fore.MAGENTA + Style.BRIGHT + "            DEVELOPER BY SABBIR ØX")
+    print(Fore.RED + "==================================================")
     print("")
 
 def show_menu():
@@ -33,7 +37,7 @@ def show_menu():
     print(Fore.CYAN + f"[3] " + Fore.WHITE + f"DIRECTORY FINDER (Hidden Panels)")
     print(Fore.CYAN + f"[4] " + Fore.WHITE + f"SQLi SCANNER")
     print(Fore.RED + f"[5] " + Fore.WHITE + f"EXIT")
-    print(Fore.RED + "==========================================================")
+    print(Fore.RED + "==================================================")
 
 def get_server_info(url):
     print(Fore.YELLOW + f"\n[*] Analyzing {url}...")
