@@ -6,7 +6,7 @@ pkg install python -y
 pip install colorama requests
 
 echo -e "\e[1;32m[+] Downloading RED ATACK Tool...\e[0m"
-curl -sL https://raw.githubusercontent.com/sabbirooox/red_atack-/main/red_atack.py -o red_atack.py -o red_atack.py
+curl -sL https://raw.githubusercontent.com/sabbirooox/red_atack-/main/red_atack.py -o red_atack.py
 
 chmod +x red_atack.py
 
